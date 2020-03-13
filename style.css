@@ -1,0 +1,37 @@
+body .main-content h2 div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul p {
+    white-space: pre-wrap;
+}
+
+.head {
+    text-align: center;
+}
+
+.item-split {
+    margin: 0 10px;
+}
+
+.deco-img {
+    margin-right: 5px;
+}
+
+.print {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: auto;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: #58985C;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.print:hover {
+    outline: #58985C;
+}
