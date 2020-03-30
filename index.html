@@ -9,7 +9,11 @@
     <style media="print">
         @page {
             size: auto;
-            /* margin: 0mm; */
+            margin: 0mm;
+        }
+
+        .page-header {
+            padding: 3rem 0 1rem;
         }
     </style>
     <link rel="stylesheet" href="inherit.css">
@@ -18,10 +22,11 @@
 
 <body>
     <div id="print" class="print" onclick="printPage()">打印</div>
-    <section class="page-header">
+    <div class="page-header">
         <h1 class="project-name">前端工程师</h1>
         <h2 class="project-tagline"></h2>
-    </section>
+    </div>
+    
     <section class="main-content">
         <div class="head">
             <h1>龚凯</h1>

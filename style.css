@@ -1,6 +1,14 @@
+.main-content {
+    padding: 0 10%;
+}
+
 body .main-content h2 div {
     display: inline-block;
     vertical-align: middle;
+}
+
+.head h1 {
+    padding-top: 1rem;
 }
 
 ul p {
@@ -30,6 +38,7 @@ ul p {
     color: #58985C;
     border-radius: 3px;
     background-color: white;
+    z-index: 99;
 }
 
 .print:hover {
