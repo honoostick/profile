@@ -35,3 +35,13 @@ ul p {
 .print:hover {
     outline: #58985C;
 }
+
+.common-ul {
+    line-height: 1.3em;
+    word-break: break-all;
+    white-space: pre-line;
+}
+
+.common-ul li {
+    line-height: 1.5em;
+}

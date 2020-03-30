@@ -1,15 +1,16 @@
 function printPage() {
-    // if (oper < 10) {
-    //     bdhtml = window.document.body.innerHTML;//获取当前页的html代码
-    //     sprnstr = "<!--startprint" + oper + "-->";//设置打印开始区域
-    //     eprnstr = "<!--endprint" + oper + "-->";//设置打印结束区域
-    //     prnhtml = bdhtml.substring(bdhtml.indexOf(sprnstr) + 18); //从开始代码向后取html
-    //     prnhtml = prnhtml.substring(0, prnhtml.indexOf(eprnstr));//从结束代码向前取html
-    //     window.document.body.innerHTML = prnhtml;
-    //     window.print();
-    //     window.document.body.innerHTML = bdhtml;
-    // } else {
-    //     window.print();
-    // }
-    window.print();
+  //   const w = window.open("print", "_blank");
+  //   var content = window.document.body.innerHTML;
+  //   var styles = Array.from(window.document.styleSheets)[0];
+  //   var styleText = Array.from(styles.rules).filter(rule => [".print-content"].includes(rule.selectorText)).map(rule => rule.cssText).join(';')
+  //   w.document.head.innerHTML = `<style>${styleText}</style>`
+  //   w.document.write(content);
+  //   w.document.close();
+  //   w.print();
+  //   w.close();
+  // window.frames["print_frame"].document.body.innerHTML='<link href="style.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="inherit.css">' + document.body.innerHTML;
+  // window.frames["print_frame"].window.focus();
+  // window.frames["print_frame"].window.print();
+
+  window.print();
 }
