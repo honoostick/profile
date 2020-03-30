@@ -12,5 +12,13 @@ function printPage() {
   // window.frames["print_frame"].window.focus();
   // window.frames["print_frame"].window.print();
 
+// var shell = new ActiveXObject("WScript.Shell");     
+	    //往注册表中写入值
+	    // shell.RegWrite("HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\PageSetup\\footer","&b&d","REG_SZ");
+
+
+  const printBtn = document.getElementById('print');
+  printBtn.style.display="none";
   window.print();
+  printBtn.style.display="inherit";
 }
